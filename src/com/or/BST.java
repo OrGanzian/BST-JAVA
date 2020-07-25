@@ -232,14 +232,14 @@ public class BST  {
 	public int getHeight() {
 		if (root==null) {
 			System.out.println("tree is empty");
-			return 0;
+			return -1;
 		}
-	return getHeight(root)-1;
+	return getHeight(root);
 	}
 	private int getHeight(Node root) {
 		
 		if (root==null) {
-			return 0;
+			return -1;
 		}
 		
 		int left=getHeight(root.getLeft());

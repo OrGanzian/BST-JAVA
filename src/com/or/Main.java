@@ -15,5 +15,5 @@ public class Main {
 	// test github merege
 // added frome remote
 // some extra	 code	
-		// this is master
+		// this is master only
 }
